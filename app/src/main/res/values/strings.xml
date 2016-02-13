@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NautaPhotoMail</string>
+
+    <string name="title_activity_compression_picker">Compress Picture</string>
+    <string name="compression_dialog_message">%1$d processed of %2$d.</string>
+    <string name="permission_denied_message">Please to give us write access.</string>
+</resources>
