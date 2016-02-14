@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">NautaPhotoMail</string>
     <string name="title_activity_compression_picker">Reducir Fotos</string>
     <string name="compression_dialog_message">%1$d fots procesadas de %2$d.</string>
     <string name="permission_denied_message">Acitve permisos de almacenamiento.</string>

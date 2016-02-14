@@ -7,15 +7,14 @@ import java.util.List;
 /**
  * Created by novoa.pro@gmail.com on 2/13/16
  */
-public class CompressionContract {
+public interface CompressionContract {
 
-    public interface CompressionView{
+    interface CompressionView{
         void showCompressionProcessDialog(String message);
         void onCompression(List<Uri> compressedPhotoUriList);
     }
 
-    public interface Compressor{
+    interface Compressor{
         void compressPhotos(List<Uri> photoUriList);
     }
-
 }
