@@ -32,6 +32,10 @@ public class CompressionPickerActivity extends AppCompatActivity implements Comp
 
         this.compressor = new PicassoCompressor(getApplicationContext(), this);
 
+        requestPermission();
+    }
+
+    private void requestPermission() {
         if (ContextCompat.checkSelfPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 != PackageManager.PERMISSION_GRANTED) {
 
